@@ -1,6 +1,6 @@
 @media(max-width:1000px){
     .main{
-        height: 80vh;
+        height: 90vh;
     }
     .second{
        display: flex; 
@@ -57,6 +57,7 @@
     .main input{
         position: relative;
         top: 2px;
+        
     }
 
 }
@@ -158,5 +159,7 @@
         padding: 0 20px;
     }
     
-    
+    .main input{
+        width: 35rem;
+    }
 }
