@@ -1,0 +1,162 @@
+@media(max-width:1000px){
+    .main{
+        height: 80vh;
+    }
+    .second{
+       display: flex; 
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .second .content{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .third{
+       display: flex; 
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .third .content{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .fourth{
+        text-align: center;
+    }
+    .fifth{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .fifth .content{
+         text-align: center;
+         margin-top: 40px;
+     }
+    
+}
+
+@media (max-width:912px){
+    html{
+        font-size: 7px;
+    }
+    .sixth .qn p{
+        width: 80rem;
+        margin: -5px 0;
+    }
+    .second img{
+        height: 300px;
+    }
+    .search input{
+        position: relative;
+        top: 2px;
+        left: 1px;
+    }
+    .main input{
+        position: relative;
+        top: 2px;
+    }
+
+}
+@media (max-width:575px){
+    
+    .third img{
+        height: 300px;
+    }
+    .second img{
+        height: 250px;
+    }
+
+    .fifth img{
+        height: 250px;
+    }
+}
+@media (max-width:430px){
+    
+    .third img{
+        height: 210px;
+    }
+    .second img{
+        height: 200px;
+    }
+
+    .fifth img{
+        height: 220px;
+    }
+    .sixth .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sixth .search .btn2{
+        margin-top: -80px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media(max-width:600px){
+    .sixth .qn p{
+        width: 60rem;
+        
+    }
+    .sixth{
+        padding: 0 10%;
+    }
+    .sixth .search{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sixth .btn2{
+        margin-top: -70px;
+        margin-bottom: 20px;
+    }
+    .last .txt{
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+    .last .para{
+        margin-left: 0;
+    }
+    .last .paralast{
+        margin-left: 0;
+    }
+}
+
+@media (max-width:500px){
+    .main .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 120px;
+    }
+    .main .btn2{
+        margin-top: -80px;
+    }
+    .main .navbar img{
+        height: 30px;
+    }
+    .main .navbar{
+        padding: 35px 20px;
+    }
+    .sixth .qn p{
+        width: 40rem;
+        
+    }
+    .sixth .qn i{
+        margin-left: -5px;
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
+    .sixth{
+        padding: 0 20px;
+    }
+    
+    
+}

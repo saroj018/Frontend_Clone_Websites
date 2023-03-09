@@ -1,0 +1,11 @@
+@media(max-width:500px){
+    .page .need{
+        margin-right: 50px;
+    }
+    .page .rem{
+        margin-left: 40px;
+    }
+    .page input[type='checkbox']{
+        margin-left: 40px;
+    }
+}
